@@ -1,0 +1,87 @@
+/*? global clearing */
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('assets/images/gojo.jpg') no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   
+.container {
+    width: 500px;
+    background-color: rgba(0,0,0, .8);
+    border-radius: 10px;
+    padding: 40px 40px;
+        
+}
+    
+h1 {     
+    text-align: center;
+    color: #eaeaea;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    text-align: center;
+    color: #eaeaea;
+    font-weight: 400;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: lightblue;
+    
+}
+
+.container .input-box {
+    position: relative;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 90%;
+    background: transparent;
+    color: #eaeaea;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255, .4);
+    border-radius: 40px;
+}
+
+.btn {
+    width: 30%;
+    height: 40px;
+    background-color: purple;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #eaeaea;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 151px;
+}
+
+span {
+    font-size: 15px;
+    color: blue;
+}
